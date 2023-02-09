@@ -14,7 +14,6 @@ Reset
     box-sizing: border-box;
 }
 
-
 /*
 Common
 */
@@ -27,8 +26,6 @@ Common
     flex-direction: column;
 }
 
-
-
 /*
 Main
 */
@@ -36,6 +33,7 @@ Main
 main {
     height: calc(100vh - var(--footer-height));
     background-color: aquamarine;
+    overflow:hidden;
 }
 
 /*
@@ -64,18 +62,15 @@ aside nav.menu .text {
     display: none
 }
 
-
-
 aside .playlist {
     display:none;
+    background-color: lightgreen;
 }
+
 aside .profile {
     background-color: darkgoldenrod;
     margin-top: auto;
 }
-
-
-
 
 @media screen and (min-width: 552px) {
     aside {
@@ -98,13 +93,7 @@ aside .profile {
         display:block;
     }
 
-
-
-
 }
-
-
-
 
 /*
 Main area
