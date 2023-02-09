@@ -3,6 +3,8 @@ Reset
 */
 
 :root {
+    --aside-width: 3.125rem;
+    --aside-width-s: 14.375rem;
     --footer-height: 5.625rem;
 }
 
@@ -37,13 +39,13 @@ Aside
 */
 
 aside {
-    width: 3.125rem;
+    width: var(--aside-width);
     background-color: #000;
 }
 
 @media screen and (min-width: 552px) {
     aside {
-        width: 14.375rem;
+        width: var(--aside-width-s);
     }
 }
 
@@ -54,7 +56,17 @@ aside {
 Main area
 */
 
+#main-area {
+    background-color: pink;
+    width: calc(100% - var(--aside-width));
+}
 
+@media screen and (min-width: 552px) {
+    #main-area {
+        width: calc(100% - var(--aside-width-s));
+    }
+    
+}
 
 /*
 Footer
