@@ -40,13 +40,51 @@ Aside
 
 aside {
     width: var(--aside-width);
-    background-color: #000;
+    background-color:powderblue;
 }
+
+aside .logo  {
+    background-color: burlywood;
+}
+
+aside .logo .big {
+    display:none
+} 
+
+
+aside .menu {
+
+}
+aside .playlist {
+    display:none;
+}
+aside .profile {
+
+}
+
+
+
 
 @media screen and (min-width: 552px) {
     aside {
         width: var(--aside-width-s);
     }
+
+    aside .logo .small {
+        display:none;
+    } 
+
+    aside .logo .big {
+        display:block;
+    } 
+
+    aside .playlist {
+        display:block;
+    }
+
+
+
+
 }
 
 
