@@ -48,13 +48,20 @@ aside .logo  {
 }
 
 aside .logo .big {
-    display:none
+    display:none;
 } 
 
 
 aside .menu {
-
+    background-color:chocolate;
 }
+
+aside nav.menu .text {
+    display: none
+}
+
+
+
 aside .playlist {
     display:none;
 }
@@ -77,6 +84,10 @@ aside .profile {
     aside .logo .big {
         display:block;
     } 
+
+    aside nav.menu .text {
+        display: initial;
+    }
 
     aside .playlist {
         display:block;
