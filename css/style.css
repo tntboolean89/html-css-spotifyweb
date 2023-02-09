@@ -2,8 +2,41 @@
 Reset
 */
 
+:root {
+    --footer-height: 5.625rem;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/*
+Common
+*/
+
+
+
+/*
+Main
+*/
+
+main {
+    height: calc(100vh - var(--footer-height));
+    background-color: aquamarine;
+}
+
+/*
+Footer
+*/
+
+footer {
+    height: var(--footer-height);
+    background-color: gray;
+}
+
+
+
+
