@@ -17,6 +17,10 @@ Reset
 Common
 */
 
+.flex {
+    display: flex;
+}
+
 
 
 /*
@@ -27,6 +31,30 @@ main {
     height: calc(100vh - var(--footer-height));
     background-color: aquamarine;
 }
+
+/*
+Aside
+*/
+
+aside {
+    width: 3.125rem;
+    background-color: #000;
+}
+
+@media screen and (min-width: 552px) {
+    aside {
+        width: 14.375rem;
+    }
+}
+
+
+
+
+/*
+Main area
+*/
+
+
 
 /*
 Footer
