@@ -23,6 +23,10 @@ Common
     display: flex;
 }
 
+.flex-dir-column {
+    flex-direction: column;
+}
+
 
 
 /*
@@ -66,7 +70,8 @@ aside .playlist {
     display:none;
 }
 aside .profile {
-
+    background-color: darkgoldenrod;
+    margin-top: auto;
 }
 
 
