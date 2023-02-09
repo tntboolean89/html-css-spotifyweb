@@ -65,6 +65,15 @@ aside nav.menu .text {
 aside .playlist {
     display:none;
     background-color: lightgreen;
+    flex-grow:1;
+    overflow-y: hidden;
+
+}
+
+aside .playlist .list-playlist {
+    background-color: blue;
+    flex-grow:1;
+    overflow-y: auto;
 }
 
 aside .profile {
@@ -90,7 +99,8 @@ aside .profile {
     }
 
     aside .playlist {
-        display:block;
+        display:flex;
+        flex-direction: column;
     }
 
 }
